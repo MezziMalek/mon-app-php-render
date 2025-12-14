@@ -12,4 +12,4 @@ RUN composer install --no-dev --optimize-autoloader
 
 EXPOSE 10000
 
-CMD ["sh", "-c" ,"php", -S, 0.0.0.0:${PORT:-10000} -t ."]
+CMD php, -S, 0.0.0.0:10000 -t .
